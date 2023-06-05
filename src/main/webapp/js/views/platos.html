@@ -1,0 +1,88 @@
+<div class="oj-hybrid-applayout-page">
+	<div class="oj-applayout-fixed-top">
+		<header role="banner" class="oj-hybrid-applayout-header">
+			<oj-module config="[[headerConfig]]"></oj-module>
+		</header>
+	</div>
+	<!-- This is where your main page content will be loaded -->
+	<div class="oj-applayout-content">
+		<div role="main" class="oj-hybrid-applayout-content">
+			<div class="oj-hybrid-padding">
+
+				<div data-bind="visible : !position()">
+					<div>Determinando tu ubicación</div>
+				</div>
+
+				<div data-bind="visible : position()">
+					Radio de búsqueda: <input type="range" min="0" max="1000"
+						data-bind="value : radius"> <label
+						data-bind="html : radius"></label>metros. <br>
+
+					<!-- ko with : position -->
+					Latitud: <span data-bind="html : coords.latitude"></span> &nbsp;
+					Longitud: <span data-bind="html : coords.longitude"></span>
+					<!-- /ko -->
+
+					<button data-bind="click : function() { loadBares() }">Buscar
+						bares cercanos</button>
+				</div>
+
+				<div data-bind="visible : bares()">
+					<h1>Bares</h1>
+					<ol>
+						<!-- ko foreach : bares -->
+						<li><a
+							data-bind=" html : nombre , click : function() { $parent.loadBar($data) }"></a>
+						</li>
+						<!-- /ko -->
+					</ol>
+				</div>
+
+				<div data-bind="visible : selectedBar()">
+					<!-- ko with : selectedBar -->
+						<h1 data-bind="html : nombre"></h1>
+					<!-- /ko -->
+					<!-- ko with : comanda -->
+						<table>
+							<tr>
+								<th></th>
+								<th>PVP</th>
+								<th>Unidades</th>
+								<th>Importe</th>
+							</tr>
+							<!-- ko foreach : platos -->
+								<tr>
+									<td data-bind="html : nombre"></td>
+									<td>
+										<span data-bind="html : pvp"></span>€ 
+									</td>
+									<td>
+										<button data-bind="click : function() { $parent.addAlServidor($data, -1) }">-</button>
+										<span data-bind="html : cantidad"></span> 
+										<button data-bind="click : function() { $parent.addAlServidor($data, 1) }">+</button>
+									</td>
+									<td>
+										<span data-bind="html : total"></span> €
+									</td>
+								</tr>
+							<!-- /ko -->
+							<tr>
+								<th colspan="3" align="right">Total:</th>
+								<th>
+									<!-- ko if: total()!=0 -->
+										<strong data-bind="html : total"></strong>&nbsp;<strong>€</strong>
+									<!-- /ko -->
+								</th>
+							</tr>
+							<tr data-bind="visible: total()!=0">
+								<th align="center" colspan="4">
+									<a data-bind="click : function() { $parent.irAlPago() }">Ir al pago</a>
+								</th>
+							</tr>
+						</table>
+					<!-- /ko -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

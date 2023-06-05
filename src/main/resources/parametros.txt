@@ -1,0 +1,14 @@
+{
+	"home" : "http://localhost",
+	"login" : "?ojr=login",
+	"urlConfirmacion" : "http://localhost/user/validateAccount/",
+	
+	"email" : {
+		"endpoint" : "https://api.sendinblue.com/v3/smtp/email",
+		"api-key" : "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",
+		"sender" : {
+			"name" : "Grupo de Macario",
+			"email" : "tysweb2223@gmail.com"
+		}
+	}
+}

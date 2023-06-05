@@ -1,0 +1,61 @@
+Carmen Carmen	38.987556	-3.928332
+Ángel	38.985377	-3.929711
+El Perro	38.986436	-3.926897
+Miami Gastro	38.982724	-3.929396
+Floridiana	38.981324	-3.931601
+Orosia	38.986406	-3.925115
+La Vuelta	38.982686	3.931390
+Fricandó Taberna Mediterránea	3.931390	-3.925759
+Alquimia	38.982233	-3.928316
+Al-Ándalus	38.983681	3.925042
+Café Guridi	38.986203	-3.926326
+Cruz Blanca	38.979755	-3.926566
+Hotel Guadiana	38.984536	-3.934883
+Dallas	38.990790	-3.927563
+Los Faroles de Tomás	38.983606	-3.928957
+Cañas y Tapas	38.978421	-3.928552
+La Fábrica	38.980517	-3.913029
+Pura Cepa Neotaberna	38.984801	-3.922441
+Bar Tapas Pichu's	38.986403	-3.931541
+Asador San José	38.978402	-3.928584
+Bar España	38.983449	-3.929069
+Restaurante El Mosquito	38.978590	-3.926367
+Bar Vendrell	38.980232	-3.922947
+Kapikua	38.976725	-3.924113
+La Pradito	38.971960	-3.929060
+El Receso	38.977851	-3.930194
+La Candela	38.980692	-3.927602
+La Unión	38.981332	-3.930372
+Domino's Pizza	38.982110	-3.925173
+Avenida	38.982717	-3.926721
+Sushicatessend Ciudad Real	38.983361	-3.925635
+Bar Kertassi	38.984748	-3.924580
+Deicy Reilly's	38.985326	-3.924480
+Restaurante El Ventero	38.985435	-3.928787
+Cervecería Callejón	38.984236	-3.928950
+El Trokanto	38.983695	-3.924420
+Stranger Bits	38.986111	-3.926111
+Wasifore	38.985154	-3.925364
+Café Bar Ismael	38.986884	-3.927599
+Restaurante Agar Agar- food & design	38.985034	-3.929616
+Restaurante La Casuca	38.984006	-3.925339
+Sally's Cook	38.982426	-3.931196
+Restaurante La Pérgola	38.979955	-3.934493
+Asador Restaurante San Huberto	38.983603	-3.919284
+Derecho y Ciencias Sociales	38.993034	-3.925830
+Doña Croqueta	38.979959	-3.926642
+Restaurante KFC	38.973262	-3.937889
+Cafetería Restaurante de María's	38.972488	-3.934519
+El Kiosco	38.973199	-3.933201
+Dami Pizza	38.971621	-3.935587
+Churrería Jovi	38.977951	-3.941100
+Bar Velarde	38.978750	-3.941277
+Tascas y Tabernas	38.979366	-3.921526
+Burger King Las Vías	38.978056	-3.928543
+Mc Donald's	38.984163	-3.914188
+Cafetería de la Estación	38.984824	-3.913202
+Restaurante Ciudad Real Cronicass Carnivoras	38.987841	-3.923842
+Asador El Chico	38.985317	-3.917133
+Asador Las Delicias	38.986366	-3.923710
+Bar Zacarías	38.964612	-3.890305
+Octavio	38.9972166	-3.9264592
